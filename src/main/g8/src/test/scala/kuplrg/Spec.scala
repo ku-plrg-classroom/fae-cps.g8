@@ -144,7 +144,7 @@ class Spec extends SpecBase {
   test(evalCPS(expr20), "8")
 
   // -------------------------------------------------------------------------
-  // reduce (first-order representation of continuations)
+  // step (first-order representation of continuations)
   // -------------------------------------------------------------------------
   test(evalK("1 + 2 * 3 + 4"), "11")
   test(evalK("x => x + 1"), "<function>")

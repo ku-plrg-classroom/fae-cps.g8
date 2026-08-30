@@ -8,6 +8,6 @@ object Implementation extends Template {
 
   def interpCPS(expr: Expr, env: Env, k: Value => Value): Value = ???
 
-  def reduce(k: Cont, s: Stack): (Cont, Stack) = ???
+  def step(k: Cont, s: Stack): (Cont, Stack) = ???
 
 }
